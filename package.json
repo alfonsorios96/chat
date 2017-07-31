@@ -1,0 +1,38 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "This is a chat developed in Polymer with web components and nodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "gulp-tasks": "gulp default",
+    "dev": "npm run gulp-tasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsorios96/chat.git"
+  },
+  "keywords": [
+    "polymer",
+    "web",
+    "components",
+    "nodejs",
+    "chat"
+  ],
+  "author": "malforime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfonsorios96/chat/issues"
+  },
+  "homepage": "https://github.com/alfonsorios96/chat#readme",
+  "dependencies": {
+    "browser-sync": "2.18.13",
+    "express": "4.15.3",
+    "gulp": "3.9.1",
+    "gulp-nodemon": "2.2.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-htmlmin": "3.0.0"
+  }
+}
